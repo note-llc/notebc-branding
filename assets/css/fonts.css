@@ -1,0 +1,87 @@
+/* TeXGyreAdventor */
+@font-face {
+    font-family: 'TeXGyreAdventor';
+    src: url('../fonts/TeXGyreAdventor-Regular.eot');
+    src: url('../fonts/TeXGyreAdventor-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TeXGyreAdventor-Regular.woff2') format('woff2'),
+        url('../fonts/TeXGyreAdventor-Regular.woff') format('woff'),
+        url('../fonts/TeXGyreAdventor-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TeXGyreAdventor';
+    src: url('../fonts/TeXGyreAdventor-Italic.eot');
+    src: url('../fonts/TeXGyreAdventor-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TeXGyreAdventor-Italic.woff2') format('woff2'),
+        url('../fonts/TeXGyreAdventor-Italic.woff') format('woff'),
+        url('../fonts/TeXGyreAdventor-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TeXGyreAdventor';
+    src: url('../fonts/TeXGyreAdventor-Bold.eot');
+    src: url('../fonts/TeXGyreAdventor-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TeXGyreAdventor-Bold.woff2') format('woff2'),
+        url('../fonts/TeXGyreAdventor-Bold.woff') format('woff'),
+        url('../fonts/TeXGyreAdventor-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TeXGyreAdventor';
+    src: url('../fonts/TeXGyreAdventor-BoldItalic.eot');
+    src: url('../fonts/TeXGyreAdventor-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TeXGyreAdventor-BoldItalic.woff2') format('woff2'),
+        url('../fonts/TeXGyreAdventor-BoldItalic.woff') format('woff'),
+        url('../fonts/TeXGyreAdventor-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Fira Code */
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../fonts/FiraCode-Bold.woff2') format('woff2'),
+        url('../fonts/FiraCode-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../fonts/FiraCode-Regular.woff2') format('woff2'),
+        url('../fonts/FiraCode-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../fonts/FiraCode-Medium.woff2') format('woff2'),
+        url('../fonts/FiraCode-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../fonts/FiraCode-Light.woff2') format('woff2'),
+        url('../fonts/FiraCode-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../fonts/FiraCode-Retina.woff2') format('woff2'),
+        url('../fonts/FiraCode-Retina.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
