@@ -2308,7 +2308,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
 	color: #fff;
-	background: #eec315 linear-gradient(180deg, #489dff, #eec315) repeat-x;
+	background: #eec315 linear-gradient(180deg, #DE9F35, #eec315) repeat-x;
 	border-color: #eec315;
 	box-shadow: none
 }
@@ -2316,7 +2316,7 @@ fieldset:disabled a.btn {
 .btn-primary:hover {
 	color: #fff;
 	background: #f0c20a linear-gradient(180deg, #eec315, #f0c20a) repeat-x;
-	border-color: #0071f4
+	border-color: #FAC73C
 }
 
 .btn-primary:focus,
@@ -2335,7 +2335,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
 	color: #fff;
-	background-color: #0071f4;
+	background-color: #FAC73C;
 	background-image: none;
 	border-color: #006ce7
 }
@@ -3255,7 +3255,7 @@ tbody.collapse.show {
 .dropdown-item:active {
 	color: #fff;
 	text-decoration: none;
-	background: #eec315 linear-gradient(180deg, #489dff, #eec315) repeat-x
+	background: #eec315 linear-gradient(180deg, #DE9F35, #eec315) repeat-x
 }
 
 .dropdown-item.disabled,
@@ -3571,7 +3571,7 @@ tbody.collapse.show {
 
 .custom-control-input:checked~.custom-control-label::before {
 	color: #fff;
-	background: #eec315 linear-gradient(180deg, #489dff, #eec315) repeat-x;
+	background: #eec315 linear-gradient(180deg, #DE9F35, #eec315) repeat-x;
 	box-shadow: none
 }
 
@@ -3629,7 +3629,7 @@ tbody.collapse.show {
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-	background: #eec315 linear-gradient(180deg, #489dff, #eec315) repeat-x
+	background: #eec315 linear-gradient(180deg, #DE9F35, #eec315) repeat-x
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
@@ -3637,7 +3637,7 @@ tbody.collapse.show {
 }
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
-	background: #eec315 linear-gradient(180deg, #489dff, #eec315) repeat-x;
+	background: #eec315 linear-gradient(180deg, #DE9F35, #eec315) repeat-x;
 	box-shadow: none
 }
 
@@ -3658,7 +3658,7 @@ tbody.collapse.show {
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label::before {
-	background: #eec315 linear-gradient(180deg, #489dff, #eec315) repeat-x
+	background: #eec315 linear-gradient(180deg, #DE9F35, #eec315) repeat-x
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label::after {
@@ -4677,7 +4677,7 @@ tbody.collapse.show {
 .badge-primary[href]:focus {
 	color: #fff;
 	text-decoration: none;
-	background-color: #0071f4
+	background-color: #FAC73C
 }
 
 .badge-secondary {
@@ -4834,7 +4834,7 @@ tbody.collapse.show {
 }
 
 .alert-primary .alert-link {
-	color: #0071f4
+	color: #FAC73C
 }
 
 .alert-secondary {
@@ -6042,7 +6042,7 @@ button.bg-tertiary:focus {
 }
 
 .bg-gradient-primary {
-	background: #eec315 linear-gradient(180deg, #489dff, #eec315) repeat-x !important
+	background: #eec315 linear-gradient(180deg, #DE9F35, #eec315) repeat-x !important
 }
 
 .bg-gradient-secondary {
@@ -9299,7 +9299,7 @@ button.bg-tertiary:focus {
 
 a.text-primary:hover,
 a.text-primary:focus {
-	color: #0071f4 !important
+	color: #FAC73C !important
 }
 
 .text-secondary {
@@ -10812,7 +10812,7 @@ a.btn-icon-only {
 
 .btn-primary {
 	color: #fff;
-	background: #eec315 linear-gradient(180deg, #489dff, #eec315) repeat-x;
+	background: #eec315 linear-gradient(180deg, #DE9F35, #eec315) repeat-x;
 	border-color: #eec315;
 	box-shadow: none
 }
@@ -10820,7 +10820,7 @@ a.btn-icon-only {
 .btn-primary:hover {
 	color: #fff;
 	background: #f0c20a linear-gradient(180deg, #eec315, #f0c20a) repeat-x;
-	border-color: #0071f4
+	border-color: #FAC73C
 }
 
 .btn-primary:focus,
@@ -10839,7 +10839,7 @@ a.btn-icon-only {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
 	color: #fff;
-	background-color: #0071f4;
+	background-color: #FAC73C;
 	background-image: none;
 	border-color: #006ce7
 }
@@ -11450,8 +11450,8 @@ a.btn-icon-only {
 .custom-input-file--2.has-focus+label,
 .custom-input-file--2:focus+label {
 	color: #fff;
-	border-color: #0071f4;
-	background: #0071f4
+	border-color: #FAC73C;
+	background: #FAC73C
 }
 
 [data-delimiter="1"]::before {
