@@ -196,3 +196,26 @@ $(document).ready(function() {
         }
     })
 });
+
+function downloadImg() {
+    // Clear error message
+    var element = document.getElementById("errMsg");
+    element.classList.remove("show");
+    // check if the values are selected
+    var assetsize = document.forms["frmCust"]["txtSize"].value;
+    if (assetsize != parseInt(assetsize, 10) || assetsize = '') {
+        document.getElementById("errText").innerHTML = "<strong>Warning!<strong> Image width must be an integer."
+        element.classList.add("show");
+        return false;
+    }
+    var selector = document.querySelector('input[name="assetSel"]:checked');
+    if (selector) {
+        var assetname = selector.value;
+    }
+    else {
+        document.getElementById("errText").innerHTML = "<strong>Warning!<strong> No image selected to process"
+        element.classList.add("show");
+        return false;
+    }
+    alert('Processing ' + assetname + ' to size ' + assetsize);
+}

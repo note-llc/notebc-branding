@@ -105,10 +105,19 @@
             <div class="modal modal-fluid fade" id="modal_1" tabindex="-1" role="dialog" aria-labelledby="modal_1" aria-hidden="true">
               <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
+                    <form name="frmCust">
                   <div class="modal-body">
                     <div class="row justify-content-center">
                       <div class="col-lg-12 text-center py-4 pt-2">
                         <h5 class="heading">Choose the image and then select the width you want</h5>
+                      </div>
+                    </div>
+                    <div class="row justify-content-center">
+                      <div class="col-lg-12 text-center py-4 pt-2">
+                        <div class="alert alert-danger fade" role="alert" id="errMsg">
+                            <span class="alert-inner--icon text-danger"><i class="fas fa-times"></i></span>
+                            <span class="alert-inner--text" id="errText">Form error, please fix</span>
+                        </div>
                       </div>
                     </div>
                     <div class="row justify-content-center">
@@ -132,34 +141,34 @@
                     <div class="row justify-content-center">
                       <div class="col-3">
                         <div class="custom-control custom-radio mb-3">
-                          <input type="radio" name="custom-radio-1" class="custom-control-input" id="logoSel1" value="noteblockchain_ntbc_png.png">
+                          <input type="radio" name="assetSel" class="custom-control-input" id="logoSel1" value="noteblockchain_ntbc_png.png">
                           <label class="custom-control-label small font-weight-bold" for="logoSel1">Color Logo</label>
                         </div>
                       </div>
                       <div class="col-3">
                         <div class="custom-control custom-radio mb-3">
-                          <input type="radio" name="custom-radio-1" class="custom-control-input" id="logoSel2" value="noteblockchain_ntbc_v1_text.png">
+                          <input type="radio" name="assetSel" class="custom-control-input" id="logoSel2" value="noteblockchain_ntbc_v1_text.png">
                           <label class="custom-control-label small font-weight-bold" for="logoSel2">Logo with Text</label>
                         </div>
                       </div>
                       <div class="col-3">
                         <div class="custom-control custom-radio mb-3">
-                          <input type="radio" name="custom-radio-1" class="custom-control-input" id="logoSel3" value="noteblockchain_ntbc_mono_bl.png">
+                          <input type="radio" name="assetSel" class="custom-control-input" id="logoSel3" value="noteblockchain_ntbc_mono_bl.png">
                           <label class="custom-control-label small font-weight-bold" for="logoSel3">Logo in Black</label>
                         </div>
                       </div>
                       <div class="col-3">
                         <div class="custom-control custom-radio mb-3">
-                          <input type="radio" name="custom-radio-1" class="custom-control-input" id="logoSel4" value="noteblockchain_ntbc_mono_wh.png">
+                          <input type="radio" name="assetSel" class="custom-control-input" id="logoSel4" value="noteblockchain_ntbc_mono_wh.png">
                           <label class="custom-control-label small font-weight-bold" for="logoSel4">Logo in White</label>
                         </div>
                       </div>
                     </div>
                     <div class="row justify-content-center">
-                      <div class="col-lg-4 col-md-8">
+                      <div class="col-lg-8 col-md-12">
                         <div class="form-group">
                           <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Width in px" aria-label="Width in Pixels" aria-describedby="basic-addon2">
+                            <input type="text" class="form-control" placeholder="Width in px" aria-label="Width in Pixels" aria-describedby="basic-addon2" name="txtSize">
                             <div class="input-group-append">
                               <span class="input-group-text" id="basic-addon2">px</span>
                             </div>
@@ -176,7 +185,7 @@
                     </div>
                   </div>
                 </div>
-
+                    </form>    
               </div>
             </div>
             <!-- End Modal Customizer -->
