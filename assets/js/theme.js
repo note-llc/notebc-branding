@@ -203,7 +203,7 @@ function downloadImg() {
     element.classList.remove("show");
     // check if the values are selected
     var assetsize = document.forms["frmCust"]["txtSize"].value;
-    if (assetsize != parseInt(assetsize, 10) || assetsize = '') {
+    if (assetsize != parseInt(assetsize, 10) || assetsize == '') {
         document.getElementById("errText").innerHTML = "<strong>Warning!<strong> Image width must be an integer."
         element.classList.add("show");
         return false;
@@ -217,5 +217,38 @@ function downloadImg() {
         element.classList.add("show");
         return false;
     }
+    assetname = "http://localhost/ntbc/notebc-branding/assets/logo/" + assetname;
     alert('Processing ' + assetname + ' to size ' + assetsize);
+    var scaleFactor = assetsize / 4500;
+    var img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = resizeImg(img, scaleFactor);
+    img.src= assetname;
+
+};
+
+function resizeImg(img,scaleFactor){
+    let downloadLink = document.createElement('a');
+    downloadLink.setAttribute('download', 'ntbc-logo-resized.png');
+    var c = document.createElement('canvas');
+    var ctx = c.getContext('2d');
+    var iw = 4500;
+    var ih = 4500;
+    c.width = iw * scaleFactor;
+    c.height = ih * scaleFactor;
+    ctx.drawImage(img,0,0,iw*scaleFactor,ih*scaleFactor);
+
+    //var scaledImg=new Image();
+    //scaledImg.onload=function(){
+        // scaledImg is a scaled imageObject for upload/download
+        // For testing, just append it to the DOM
+    //    document.body.appendChild(scaledImg);
+    //}
+    //scaledImg.src=c.toDataURL();
+
+    let dataURL = c.toDataURL('image/png');
+    let url = dataURL.replace(/^data:image\/png/,'data:application/octet-stream');
+    downloadLink.setAttribute('href', url);
+    downloadLink.click();
+
 }
